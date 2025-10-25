@@ -4,13 +4,7 @@
 
 How long can you put off fate? An addictive arcade game where every bounce adds another year to your 'freedom'!
 
----
 
-*Aap yahan apni game ka ek chota sa GIF/Screenshot daal sakte hain taake logon ko foran samajh aa jaye.*
-
- 
-
----
 
 ## 📜 About The Game
 
@@ -61,13 +55,15 @@ Make sure you have Python 3 installed. You can download it from [python.org](htt
 ### Running the Game
 
 Once the dependencies are installed, start the game with this command:
-
-python main.py
+  ```bash
+    python main.py
+  ```
 
 ## 📂 Project Files
 The project needs the following files to be in the same directory:
 
 RingOfFate/
+
 |-- main.py              # The main game script
 
 |-- falling_ring.png     # Image for the small falling ring
@@ -87,7 +83,7 @@ Run main.py.
 
 ## Click the "START" button.
 
-Watch the ring fall and bounce! The score increases with each collision.
-When the ring falls off the bottom of the screen, the game is over.
-Your final score (your "fate") will be revealed with a cool animation!
-Click "Play Again" to challenge destiny once more.
+*  Watch the ring fall and bounce! The score increases with each collision.
+*  When the ring falls off the bottom of the screen, the game is over.
+*  Your final score (your "fate") will be revealed with a cool animation!
+*  Click "Play Again" to challenge destiny once more.
