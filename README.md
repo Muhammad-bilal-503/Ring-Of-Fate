@@ -1,8 +1,8 @@
 # Ring Of Fate 💍
 
-![Language](https://img.shields.io/badge/Language-Python-blue.svg) ![Library](https://img.shields.io/badge/Library-Pygame-red.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Language](https://img.shields.io/badge/Language-Python-blue.svg) ![Library](https://img.shields.io/badge/Library-Pygame-red.svg) ![Library](https://img.shields.io/badge/Library-OpenCV-lightgrey.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-How long can you put off fate? An addictive arcade game where every bounce adds another year to your 'freedom'!
+How long can you put off fate? An addictive arcade game where every bounce adds another year to your 'freedom', with you in the background!
 
 
 
@@ -10,20 +10,21 @@ How long can you put off fate? An addictive arcade game where every bounce adds 
 
 Ever felt like you're just delaying the inevitable? Well, now you can make a game out of it! 
 
-In **Ring Of Fate**, your goal is to keep the wedding ring bouncing between two tricky obstacles for as long as possible. Each collision hilariously adds another 'year' to your score (and your wait time!). It's a frantic race against gravity and... well, destiny. Can you beat your fate?
+In **Ring Of Fate**, your goal is to keep the wedding ring bouncing between two tricky obstacles for as long as possible. The game uses your **live camera feed** as a dynamic background, putting you right in the middle of the action! Each collision hilariously adds another 'year' to your score. Can you beat your fate?
 
 ## ✨ Features
 
+*   **Live Camera Background:** Uses your webcam to create a unique and interactive background for every game.
 *   **Hilarious Concept:** A unique and funny take on classic arcade games.
-*   **Simple One-Click Controls:** Easy to learn, hard to master. Perfect for quick gaming sessions.
+*   **Simple One-Click Controls:** Easy to learn, hard to master.
 *   **Dynamic Physics:** Satisfying bounce mechanics that make every round unpredictable.
-*   **Polished UI:** Clean start screens and a dramatic, animated game-over screen to reveal your final score.
-*   **Ready to Play:** No complex setup needed. Just install and run!
+*   **Polished UI:** Clean start screens and a dramatic, animated game-over screen.
 
 ## 🛠️ Tech Stack
 
 *   **Python:** The core programming language.
-*   **Pygame:** Used for creating the game window, handling graphics, and all user interactions.
+*   **Pygame:** Used for creating the game window, graphics, and all user interactions.
+*   **OpenCV:** For capturing the live camera feed and using it as the game's background.
 
 ## 🚀 Getting Started
 
@@ -55,8 +56,8 @@ Make sure you have Python 3 installed. You can download it from [python.org](htt
 ### Running the Game
 
 Once the dependencies are installed, start the game with this command:
-  ```bash
-    python main.py
+```bash
+python main.py
   ```
 
 ## 📂 Project Files
@@ -78,12 +79,12 @@ RingOfFate/
 
 ## 🎮 How to Play
 
-Run main.py.
-
-
-## Click the "START" button.
-
+*  Run main.py.
+*  Click the "START" button.
 *  Watch the ring fall and bounce! The score increases with each collision.
 *  When the ring falls off the bottom of the screen, the game is over.
 *  Your final score (your "fate") will be revealed with a cool animation!
 *  Click "Play Again" to challenge destiny once more.
+
+## 📄 License
+This project is licensed under the MIT License. Feel free to use and modify it!
