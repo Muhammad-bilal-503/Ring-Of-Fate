@@ -39,7 +39,7 @@ Make sure you have Python 3 installed. You can download it from [python.org](htt
 1.  **Clone the repository:** 
     *(Yahan `YOUR_USERNAME` ki jagah apna GitHub username likh dein)*
     ```bash
-    git clone https://github.com/YOUR_USERNAME/RingOfFate.git
+    git clone https://github.com/Muhammad-bilal-503/Ring Of Fate.git
     ```
 
 2.  **Navigate to the project directory:**
